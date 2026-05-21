@@ -19,3 +19,8 @@
 Do not set standard stop-loss orders based on the option's premium value. Instead, configure a ThinkOrSwim **Conditional Order** linked directly to the equity chart:
 * **Trigger Constraint:** Stock Price of CRWV is Less Than or Equal To (<=) $102.95 (just below the defined morning intraday support floor of $103.16).
 * **Routing Action:** If triggered, automatically route a Market Order to Sell to Close the active June Call contracts.
+
+---
+
+### Disclaimer
+*This document is prepared strictly for educational and illustrative purposes as a learning aid for options mechanics. This content does not constitute financial advice, investment recommendations, or an endorsement to buy or sell any security. Options trading involves substantial risk and is not suitable for all investors. Always perform your own research and consult a licensed financial advisor before allocating real capital to the financial markets.*
